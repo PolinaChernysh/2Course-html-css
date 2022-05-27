@@ -1,2 +1,2 @@
 # 2Course-html-css
-My course 2nd html.css
+My 2nd course html.css
