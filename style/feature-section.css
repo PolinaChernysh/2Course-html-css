@@ -1,0 +1,37 @@
+.feature-section {
+    background-color: #222224;
+    padding-top: 6.4375rem;
+    padding-bottom: 6.5rem;
+    display: flex;
+}
+
+.feature-section__info {
+    width: 22.5rem;
+    margin-right: 1.875rem;
+}
+
+.feature-section__info-2 {
+    width: 22.5rem;
+}
+
+.feature-section__info-img {
+    padding-bottom: 1.75rem;
+    padding-left: 9.875rem;
+}
+
+.feature-section__info-heading1 {
+    font-weight: 400;
+    font-size: 1.1875rem;
+    line-height: 1.5rem;
+    color: #FBFBFB;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.feature-section__info-heading2 {
+    font-weight: 300;
+    font-size: 0.8125rem;
+    line-height: 1.0625rem;
+    color: #FBFBFB;
+    text-align: center;
+}

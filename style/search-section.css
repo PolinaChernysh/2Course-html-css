@@ -1,0 +1,43 @@
+.search-section {
+    margin-top: 4.0625rem;
+    margin-bottom: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search-section__card {
+    margin-right: 1.875rem;
+}
+
+.search-section__card-4 {
+    margin-top: 1.875rem;
+}
+
+.search-section__card-heading {
+    position: absolute;
+    padding-top: 6.5625rem;
+    padding-left: 6.4375rem;
+}
+
+.search-section__card-heading-long {
+    position: absolute;
+    padding-top: 4.0625rem;
+    padding-left: 30.625rem;
+}
+
+.search-section__card-heading1 {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.search-section__card-heading2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+    text-align: center;
+    color: #F16D7F;
+}

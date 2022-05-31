@@ -1,0 +1,82 @@
+.products-section {
+    margin-bottom: 5.9375rem;
+}
+
+.products-section__heading1 {
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    color: #222222;
+    padding-bottom: 0.375rem;
+    text-align: center;
+}
+
+.products-section__heading2 {
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    color: #9F9F9F;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.products-section__cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+
+.products-section__card {
+    background-color: #F8F8F8;
+    width: 22.5rem;
+    margin-right: 1.875rem;
+    margin-bottom: 1.875rem;
+}
+
+.products-section__card-right {
+    background-color: #F8F8F8;
+    width: 22.5rem;
+    margin-bottom: 1.875rem;
+}
+
+.products-section__card-img {
+    padding-bottom: 1.5625rem;
+}
+
+.products-section__card-title {
+    font-weight: 400;
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    color: #000000;
+    padding-bottom: 0.8125rem;
+    padding-left: 1.125rem;
+}
+
+.products-section__card-subtitle {
+    font-weight: 300;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    color: #5D5D5D;
+    padding-bottom: 1.125rem;
+    padding-left: 1.125rem;
+}
+
+.products-section__card-price {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    color: #F16D7F;
+    padding-left: 1.125rem;
+    padding-bottom: 1.25rem;
+}
+
+.btn {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    color: #F26376;
+    border: 1px solid #FF6A6A;
+    padding: 0.9375rem 2.4375rem;
+    margin-left: 29.0625rem;
+}
