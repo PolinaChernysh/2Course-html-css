@@ -29,7 +29,7 @@
     padding-top: 9.375rem;
 }
 
-.subscribe__text1 {
+.subscribe__title {
     font-weight: 600;
     font-size: 1.5rem;
     line-height: 167.2%;
@@ -37,7 +37,7 @@
     color: #222224;
 }
 
-.subscribe__text2 {
+.subscribe__subtitle {
     font-weight: 400;
     font-size: 1.125rem;
     line-height: 167.2%;
@@ -102,5 +102,11 @@
 }
 
 .copyright__network {
+    display: flex;
+    justify-content: flex-end;
     padding-top: 1.5rem;
+}
+
+.icon-network {
+    padding-left: 0.4375rem;
 }

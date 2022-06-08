@@ -5,21 +5,21 @@
     display: flex;
 }
 
-.feature-section__info {
+.card-feature {
     width: 22.5rem;
     margin-right: 1.875rem;
 }
 
-.feature-section__info-2 {
+.card-feature:nth-child(3) {
     width: 22.5rem;
 }
 
-.feature-section__info-img {
+.card-feature__img {
     padding-bottom: 1.75rem;
     padding-left: 9.875rem;
 }
 
-.feature-section__info-heading1 {
+.card-feature__title {
     font-weight: 400;
     font-size: 1.1875rem;
     line-height: 1.5rem;
@@ -28,7 +28,7 @@
     padding-bottom: 1rem;
 }
 
-.feature-section__info-heading2 {
+.card-feature__subtitle {
     font-weight: 300;
     font-size: 0.8125rem;
     line-height: 1.0625rem;

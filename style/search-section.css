@@ -5,27 +5,27 @@
     flex-wrap: wrap;
 }
 
-.search-section__card {
+.card-offer:nth-child(-n+2) {
     margin-right: 1.875rem;
 }
 
-.search-section__card-4 {
+.card-offer-long {
     margin-top: 1.875rem;
 }
 
-.search-section__card-heading {
+.card-offer__heading {
     position: absolute;
     padding-top: 6.5625rem;
     padding-left: 6.4375rem;
 }
 
-.search-section__card-heading-long {
+.card-offer-long__heading {
     position: absolute;
     padding-top: 4.0625rem;
     padding-left: 30.625rem;
 }
 
-.search-section__card-heading1 {
+.card-offer__heading-title {
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.1875rem;
@@ -34,7 +34,7 @@
 
 }
 
-.search-section__card-heading2 {
+.card-offer__heading-subtitle {
     font-weight: 700;
     font-size: 1.5rem;
     line-height: 1.8125rem;

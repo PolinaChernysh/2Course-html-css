@@ -13,10 +13,54 @@
     align-items: flex-end;
 }
 
-.left {
+.fist {
     margin-right: 2.5625rem;
 }
 
-.right {
+.last {
     margin-left: 2.0625rem;
 }
+
+
+
+
+
+
+/* Второй вариант
+
+.icons:nth-child(-n+2) {
+    margin-right: 2.5625rem;
+}
+
+.icons:nth-child(3) {
+    margin-left: 50.9875rem;
+}
+
+.icons:nth-last-child(-n+2) {
+    margin-left: 2.0625rem;
+}
+
+*/
+
+
+
+
+
+
+/* Третий вариант
+
+.navbar__logo,
+.navbar__main {
+    display: flex;
+    align-items: flex-end;
+}
+
+.navbar__logo-icon {
+    margin-right: 2.5625rem;
+}
+
+.navbar__main-icon {
+    margin-left: 2.0625rem;
+}
+
+*/
