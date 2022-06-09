@@ -25,7 +25,7 @@
     padding-left: 30.625rem;
 }
 
-.card-offer__heading-title {
+.card-offer__title {
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.1875rem;
@@ -34,7 +34,7 @@
 
 }
 
-.card-offer__heading-subtitle {
+.card-offer__subtitle {
     font-weight: 700;
     font-size: 1.5rem;
     line-height: 1.8125rem;
