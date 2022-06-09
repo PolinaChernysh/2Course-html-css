@@ -1,0 +1,41 @@
+.top {
+    background-color: #F1E4E6;
+    display: flex;
+    align-items: flex-start;
+    height: 47.75rem;
+}
+
+.top__img {
+    padding: 0 0 0 calc(50% - 100rem / 2);
+}
+
+.top__heading {
+    margin-left: 4rem;
+    margin-top: 18.125rem;
+    display: flex;
+}
+
+.top__heading-strip {
+    height: 5.75rem;
+    width: 0.75rem;
+    background-color: #F16D7F;
+    margin-right: 1rem;
+}
+
+.top__heading-text {
+    flex-direction: column;
+}
+
+.top__title {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.625rem;
+    color: #222222;
+}
+
+.top__subtitle {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.375rem;
+    color: #222222;
+}

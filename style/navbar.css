@@ -1,0 +1,22 @@
+.navbar {
+    background-color: #222222;
+    height: 4.6875rem;
+    display: flex;
+    box-sizing: border-box;
+    padding-bottom: 1.25rem;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.navbar__block {
+    display: flex;
+    align-items: flex-end;
+}
+
+.navbar__block:first-of-type>.icon {
+    margin-right: 2.5625rem;
+}
+
+.navbar__block:last-of-type>.icon {
+    margin-left: 2.0625rem;
+}
