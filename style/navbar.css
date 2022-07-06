@@ -3,7 +3,7 @@
     height: 4.6875rem;
     display: flex;
     box-sizing: border-box;
-    padding-bottom: 1.25rem;
+    padding-bottom: 1.25rem !important;
     align-items: flex-end;
     justify-content: space-between;
 }

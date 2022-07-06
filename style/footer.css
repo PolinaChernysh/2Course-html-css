@@ -1,6 +1,6 @@
 .subscribe-section {
     height: 28rem;
-    background-image: url(images/.subscribe.jpg);
+    background-image: url(../images/subscribe.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -109,4 +109,19 @@
 
 .icon-network {
     padding-left: 0.4375rem;
+}
+
+.icon-network__link {
+    background-color: #FFFFFF;
+    fill: #000000;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-network__link:hover {
+    background-color: #F16D7F;
+    fill: #FFFFFF;
 }
