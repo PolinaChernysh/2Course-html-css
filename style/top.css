@@ -1,17 +1,39 @@
 .top {
     background-color: #F1E4E6;
     display: flex;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
     height: 47.75rem;
 }
+
 
 .top__img {
     padding: 0 0 0 calc(50% - 100rem / 2);
 }
 
+
+/*
+.top__mv {
+    position: relative;
+    min-height: 47.75rem;
+    display: flex;
+    align-items: center;
+}
+
+.video-Index {
+    width: 100rem;
+    position: absolute;
+    z-index: -5;
+}
+*/
+
+.top__heading {
+    padding: 0 calc(65% - 100rem / 2) 0 0;
+    display: flex;
+}
+
 .top__heading {
     margin-left: 4rem;
-    margin-top: 18.125rem;
     display: flex;
 }
 

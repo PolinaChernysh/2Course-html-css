@@ -20,7 +20,7 @@
     text-align: center;
 }
 
-.products-section__cards {
+.products-section__cardsIndex {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 3rem;
@@ -81,4 +81,9 @@
     border: 1px solid #FF6A6A;
     padding: 0.9375rem 2.4375rem;
     margin-left: 29.0625rem;
+}
+
+.btn:hover {
+    color: #FFFFFF;
+    background-color: #F26376;
 }

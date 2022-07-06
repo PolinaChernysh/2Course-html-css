@@ -1,3 +1,15 @@
+@import url(navbar.css);
+@import url(top.css);
+@import url(breadcrumb.css);
+@import url(slider.css);
+@import url(benefits.css);
+@import url(search-section.css);
+@import url(products-section_index.css);
+@import url(products-section_catalog.css);
+@import url(products-section_product.css);
+@import url(feature-section.css);
+@import url(footer.css);
+
 * {
     margin: 0;
     padding: 0;
