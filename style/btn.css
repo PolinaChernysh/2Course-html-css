@@ -1,0 +1,15 @@
+.btn {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    color: #F26376;
+    border: 1px solid #FF6A6A;
+    padding: 0.9375rem 2.4375rem;
+    margin-left: 29.0625rem;
+}
+
+.btn:hover {
+    color: #FFFFFF;
+    background-color: #F26376;
+}

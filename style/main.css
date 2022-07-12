@@ -3,10 +3,11 @@
 @import url(breadcrumb.css);
 @import url(slider.css);
 @import url(benefits.css);
-@import url(search-section.css);
-@import url(products-section_index.css);
-@import url(products-section_catalog.css);
-@import url(products-section_product.css);
+@import url(categories-section.css);
+@import url(products-section.css);
+@import url(products-section__cards.css);
+@import url(sort);
+@import url(btn.css);
 @import url(feature-section.css);
 @import url(footer.css);
 
