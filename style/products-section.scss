@@ -1,0 +1,47 @@
+.products-section {
+    margin-bottom: 6rem;
+}
+
+.products-section__cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+
+.products-section__header {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.25rem;
+    color: #222222;
+    padding-bottom: 0.4rem;
+    text-align: center;
+}
+
+.products-section__subtitle {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #9F9F9F;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.products-section__button {
+    margin: 0 auto;
+    margin-top: 3rem;
+    min-width: 9rem;
+    max-width: 9rem;
+}
+
+.products-section__button:hover {
+    color: #FFFFFF;
+    background-color: #F26376;
+}
+
+.products-section__pagination {
+    border: 1px solid rgba(235, 235, 235, 1);
+    width: 17.7rem;
+    height: 2.7rem;
+    margin: 0 auto;
+}

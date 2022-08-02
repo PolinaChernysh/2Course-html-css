@@ -1,40 +1,42 @@
 .breadcrumb {
-    background-color: #F8F3F4;
-    height: 9.25rem;
-    display: flex;
-    justify-content: space-between;
+  background-color: #F8F3F4;
+  height: 9.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .breadcrumb__title {
-    padding-top: 3.6875rem;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-    color: #F16D7F;
+  padding-top: 3.7rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: #F16D7F;
 }
 
 .breadcrumb__items {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 4.0625rem;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 4rem;
 }
 
 .breadcrumb__item {
-    padding-right: 0.125rem;
+  padding-right: 0.1rem;
 }
 
 .breadcrumb__item-title {
-    text-decoration: none;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 17px;
-    color: #636363;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1rem;
+  color: #636363;
 }
-
-/*
-.breadcrumb__items>.breadcrumb__item:last-child {
-    font-weight: 700;
-    color: #F16D7F;
-}
-*/
+/*# sourceMappingURL=breadcrumb.css.map */

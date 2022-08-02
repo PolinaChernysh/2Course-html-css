@@ -12,17 +12,19 @@
 @import url(footer.css);
 @import url(basket-section.css);
 @import url(card-basket.css);
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;600,700;800,900;1,100&display=swap");
+
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;600,700;800,900;1,100&display=swap');
+
 body {
-  font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .container {
-  padding: 0 calc(50% - 1140px / 2);
+    padding: 0 calc(50% - 1140px / 2);
 }
-/*# sourceMappingURL=main.css.map */

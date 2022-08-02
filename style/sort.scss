@@ -1,0 +1,42 @@
+.sort {
+    display: flex;
+}
+
+.sort__filter {
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 20.2rem;
+    margin-top: 3.2rem;
+    margin-bottom: 4rem;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #000000;
+}
+
+.sort__filter-img {
+    padding-left: 0.6rem;
+}
+
+.sort__dropdown {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3.2rem;
+}
+
+.sort__item {
+    list-style-type: none;
+    padding-right: 1.75rem;
+}
+
+.sort__item-img {
+    padding-left: 0.5rem;
+}
+
+.sort__item-title {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #6F6E6E;
+}

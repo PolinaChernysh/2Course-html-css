@@ -1,120 +1,147 @@
 .benefits {
-    position: relative;
-    top: -4.0625rem;
+  position: relative;
+  top: -4rem;
 }
 
 .benefits__info {
-    border: 1px solid #EAEAEA;
-    background-color: rgb(255, 255, 255);
-    margin-bottom: 8rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  border: 1px solid #EAEAEA;
+  background-color: white;
+  margin-bottom: 8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .product-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .product-info__subtitle {
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 17px;
-    color: #F16D7F;
-    padding-top: 4.0625rem;
-    padding-bottom: 0.75rem;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1rem;
+  color: #F16D7F;
+  padding-top: 4rem;
+  padding-bottom: 0.75rem;
 }
 
 .lineDividing {
-    background: #EF5B70;
-    width: 3.9375rem;
-    height: 0.1875rem;
-    margin-bottom: 0.75rem;
+  background: #EF5B70;
+  width: 4rem;
+  height: 0.2rem;
+  margin-bottom: 0.75rem;
 }
 
 .product-info__title {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 22px;
-    color: #4D4D4D;
-    padding-bottom: 3rem;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: #4D4D4D;
+  padding-bottom: 3rem;
 }
 
 .product-info__desc {
-    width: 34.6875rem;
+  width: 34.7rem;
 }
 
 .product-info__desc-text {
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    color: #5E5E5E;
-    padding-bottom: 2rem;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  color: #5E5E5E;
+  padding-bottom: 2rem;
 }
 
 .product-info__price {
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 29px;
-    color: #EF5B70;
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: #EF5B70;
 }
 
 .benefits__info-line {
-    border: 0.1px solid #EAEAEA;
-    width: 40.0625rem;
-    margin-top: 4.0625rem;
+  border: 0.1px solid #EAEAEA;
+  width: 40rem;
+  margin-top: 4rem;
 }
 
 .sort-Product {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 3rem;
 }
 
 .sort-Product__dropdown {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 4.0625rem;
-    list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 4rem;
+  list-style-type: none;
 }
 
 .sort-Product__item {
-    color: #000000;
-    padding-right: 1.75rem;
+  color: #000000;
+  padding-right: 1.75rem;
 }
 
 .sort-Product__item-img {
-    padding-left: 0.5rem;
+  padding-left: 0.5rem;
 }
 
 .sort-Product__item-title {
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    color: #6F6E6E;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1rem;
+  color: #6F6E6E;
 }
 
 .button-basket {
-    padding-bottom: 4rem;
+  padding-bottom: 4rem;
 }
 
 .basket {
-    fill: #F26376;
-    padding-right: 1.375rem;
+  fill: #F26376;
+  padding-right: 1.4rem;
 }
 
 .button {
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.1875rem;
-    color: #F26376;
-    border: 1px solid #FF6A6A;
-    padding: 0.9375rem 2.4375rem;
-    display: flex;
-    align-items: center;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #F26376;
+  border: 1px solid #FF6A6A;
+  padding: 1rem 2.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+/*# sourceMappingURL=benefits.css.map */

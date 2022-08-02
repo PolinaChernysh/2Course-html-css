@@ -1,0 +1,25 @@
+.slider {
+    height: 48.6rem;
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../images/slide-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.control__arrow-link {
+    fill: black;
+    background-color: rgba(42, 42, 42, 0.15);
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.control__arrow-link:hover {
+    fill: #F16D7F;
+}
