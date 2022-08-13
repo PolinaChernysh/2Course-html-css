@@ -1,8 +1,8 @@
-.basket-section__cards>.card-basket:nth-child(1) {
+.basket-section__cards>.card-cart:nth-child(1) {
     margin-bottom: 2.5rem;
 }
 
-.card-basket {
+.card-cart {
     display: flex;
     justify-content: space-between;
     height: 19.1rem;
@@ -11,20 +11,20 @@
     box-shadow: 15px 15px 30px rgba(0, 0, 0, .20);
 }
 
-.card-basket__data {
+.card-cart__data {
     display: flex;
 }
 
-.card-basket__data-img {
+.card-cart__data-img {
     height: 100%;
 }
 
-.purchase-info {
+.card-cart__data-info {
     padding-top: 1.4rem;
     padding-left: 2rem;
 }
 
-.purchase-info__title {
+.card__title {
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
@@ -33,35 +33,29 @@
     max-width: 12.5rem;
 }
 
-.purchase-info__text {
+.card-cart__data-info-item {
     display: flex;
 }
 
-.purchase-info__text-title,
-.purchase-info__text-price,
-.purchase-info__text-feature {
+.card__h-3 {
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
     padding-bottom: 0.4rem;
-}
-
-.purchase-info__text-title {
     color: #575757;
 }
 
-.purchase-info__text-price {
-    color: #EF5B70;
-    padding-left: 0.6rem;
-}
-
-.purchase-info__text-feature {
+.card__h-3_grey {
     color: #6F6E6E;
     padding-left: 0.6rem;
 }
 
-.purchase-info__text-quantity {
-    font-weight: 400;
+.card__h-3_red {
+    color: #EF5B70;
+    padding-left: 0.6rem;
+}
+
+.card__h-3_quantity {
     font-size: 18px;
     line-height: 22px;
     color: #656565;
@@ -70,15 +64,7 @@
     margin-left: 1.2rem;
 }
 
-.card-basket__data-info_subtitle {
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 26px;
-    color: #575757;
-    padding-bottom: 0.4rem;
-}
-
-.card-basket__close {
+.card-cart__close {
     width: 1.1rem;
     height: 1.1rem;
     margin-top: 1.75rem;
