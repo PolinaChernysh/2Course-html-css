@@ -1,0 +1,23 @@
+.sort-dropdown {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3.2rem;
+    list-style-type: none;
+}
+
+.sort-item {
+    color: #000000;
+    padding-right: 1.75rem;
+}
+
+.sort-item__title {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #6F6E6E;
+}
+
+.sort-item__img {
+    padding-left: 0.5rem;
+}

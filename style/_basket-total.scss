@@ -1,0 +1,51 @@
+.basket-total {
+    padding: 2.75rem;
+    background: #F5F3F3;
+}
+
+.basket-total__grand,
+.basket-total__sub {
+    display: flex;
+    justify-content: end;
+}
+
+.basket-total__sub-subtitle,
+.basket-total__sub-price {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+    padding-bottom: 0.9rem;
+    text-align: right;
+}
+
+.basket-total__sub-price {
+    padding-left: 1rem;
+}
+
+.basket-total__grand-title {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    padding-bottom: 1.6rem;
+}
+
+.basket-total__grand-price {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    padding-left: 1rem;
+}
+
+.basket-total__line {
+    border: 1px solid #E2E2E2;
+    margin-bottom: 1rem;
+}
+
+.basket-total__btn {
+    background-color: #F16D7F;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}

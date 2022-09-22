@@ -4,22 +4,18 @@
 
 .card-cart {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     height: 19.1rem;
     min-width: 40.7rem;
     background: rgb(255, 255, 255);
     box-shadow: 15px 15px 30px rgba(0, 0, 0, .20);
 }
 
-.card-cart__data {
-    display: flex;
-}
-
-.card-cart__data-img {
+.card-cart__img {
     height: 100%;
 }
 
-.card-cart__data-info {
+.card-cart__info {
     padding-top: 1.4rem;
     padding-left: 2rem;
 }
@@ -33,7 +29,7 @@
     max-width: 12.5rem;
 }
 
-.card-cart__data-info-item {
+.card-cart__info-item {
     display: flex;
 }
 
@@ -65,8 +61,7 @@
 }
 
 .card-cart__close {
-    width: 1.1rem;
-    height: 1.1rem;
+    position: absolute;
     margin-top: 1.75rem;
-    margin-right: 1.4rem;
+    margin-left: 38rem;
 }
