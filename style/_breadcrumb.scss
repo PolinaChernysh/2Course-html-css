@@ -3,31 +3,38 @@
     height: 9.25rem;
     display: flex;
     justify-content: space-between;
-}
 
-.breadcrumb__title {
-    padding-top: 3.7rem;
-    font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 1.8rem;
-    color: #F16D7F;
-}
 
-.breadcrumb__items {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 4rem;
-}
+    &__title {
+        font: {
+            weight: 400;
+            size: 1.5rem;
+        }
 
-.breadcrumb__item {
-    padding-right: 0.1rem;
-}
+        padding-top: 3.7rem;
+        line-height: 1.8rem;
+        color: $mainColor;
+    }
 
-.breadcrumb__item-title {
-    text-decoration: none;
-    font-weight: 300;
-    font-size: 1rem;
-    line-height: 1rem;
-    color: #636363;
+    &__items {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 4rem;
+    }
+
+    &__item {
+        padding-right: 0.1rem;
+
+        &-title {
+            font: {
+                weight: 300;
+                size: 1rem;
+            }
+
+            text-decoration: none;
+            line-height: 1rem;
+            color: #636363;
+        }
+    }
 }

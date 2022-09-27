@@ -1,21 +1,22 @@
 .benefits {
     position: relative;
     top: -4rem;
-}
 
-.benefits__info {
-    border: 1px solid #EAEAEA;
-    background-color: rgb(255, 255, 255);
-    margin-bottom: 8rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-.benefits__info-line {
-    border: 0.1px solid #EAEAEA;
-    width: 40rem;
-    margin-top: 4rem;
+    &__info {
+        border: 1px solid #EAEAEA;
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-line {
+            border: 0.1px solid #EAEAEA;
+            width: 40rem;
+            margin-top: 4rem;
+        }
+    }
 }
 
 .sort-product {
@@ -29,6 +30,6 @@
 }
 
 .basket {
-    fill: #F26376;
+    fill: $mainColor;
     padding-right: 1.4rem;
 }

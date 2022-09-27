@@ -1,10 +1,13 @@
 .btn {
+    font: {
+        weight: 400;
+        size: 1rem;
+    }
+
     text-decoration: none;
-    font-weight: 400;
-    font-size: 1rem;
     line-height: 1.2rem;
-    color: #F26376;
-    border: 1px solid #FF6A6A;
+    color: darken($mainColor, 10);
+    border: 1px solid darken($mainColor, 10);
     padding: 1rem 2.5rem;
     display: flex;
     text-align: center;
