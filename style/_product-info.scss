@@ -1,0 +1,53 @@
+.product-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    &__subtitle {
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 1rem;
+        color: $mainColor;
+        padding-top: 4rem;
+        padding-bottom: 0.75rem;
+        text-align: center;
+    }
+
+    &__title {
+        font-weight: 300;
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+        color: #4D4D4D;
+        padding-bottom: 3rem;
+        text-align: center;
+    }
+
+    &__desc {
+        width: 34.7rem;
+
+
+        &-text {
+            font-weight: 300;
+            font-size: 1rem;
+            line-height: 1rem;
+            text-align: center;
+            color: #5E5E5E;
+            padding-bottom: 2rem;
+        }
+    }
+
+    &__price {
+        font-weight: 300;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        color: $mainColor;
+    }
+}
+
+.lineDividing {
+    background: $mainColor;
+    width: 4rem;
+    height: 0.2rem;
+    margin-bottom: 0.75rem;
+}

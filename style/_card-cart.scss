@@ -1,0 +1,88 @@
+@mixin title ($weight, $size, $padding-bottom, $max-width) {
+    font: {
+        weight: $weight;
+        size: $size;
+    }
+
+    line-height: 29px;
+    color: #222222;
+    padding-bottom: $padding-bottom;
+    max-width: $max-width;
+}
+
+.card__title {
+    @include title(400, 1.5rem, 2.6rem, 12.5rem);
+}
+
+
+
+.basket-section__cards {
+    .card-cart:nth-child(1) {
+        margin-bottom: 2.5rem;
+    }
+}
+
+.card-cart {
+    display: flex;
+    justify-content: flex-start;
+    height: 19.1rem;
+    min-width: 40.7rem;
+    background: rgb(255, 255, 255);
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, .20);
+
+
+    &__img {
+        height: 100%;
+    }
+
+    &__info {
+        padding: {
+            top: 1.4rem;
+            left: 2rem;
+        }
+
+        &-item {
+            display: flex;
+        }
+    }
+
+    &__close {
+        position: absolute;
+
+        margin: {
+            top: 1.75rem;
+            left: 38rem;
+        }
+    }
+}
+
+.card__h-3 {
+    font: {
+        weight: 400;
+        size: 1.4rem;
+    }
+
+    line-height: 26px;
+    padding-bottom: 0.4rem;
+    color: #575757;
+
+
+    &_grey {
+        color: #6F6E6E;
+        padding-left: 0.6rem;
+    }
+
+    &_red {
+        color: $mainColor;
+        padding-left: 0.6rem;
+    }
+
+    &_quantity {
+        font-size: 1.1rem;
+        line-height: 1.4rem;
+        color: #656565;
+        border: 1px solid #EAEAEA;
+        padding: 0.25rem 1rem 0.1rem;
+        margin-left: 1.2rem;
+    }
+}

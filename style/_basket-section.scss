@@ -1,0 +1,36 @@
+.basket-section {
+    display: flex;
+    justify-content: space-between;
+
+
+    &__cards {
+        display: flex;
+        flex-direction: column;
+        margin-top: 6rem;
+
+        &-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8rem;
+            margin-top: 4.5rem;
+        }
+    }
+
+    &__button {
+        font: {
+            weight: 300;
+            size: 0.9rem;
+        }
+
+        color: #000000;
+        border: 1px solid #000000;
+        min-width: 10rem;
+        max-width: 10rem;
+    }
+
+    &__ordering {
+        display: flex;
+        flex-direction: column;
+        width: 22.5rem;
+    }
+}

@@ -1,0 +1,47 @@
+.top {
+    background-color: #F1E4E6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 47.7rem;
+
+
+    &__img {
+        padding: 0 0 0 calc(50% - 100rem / 2);
+    }
+
+    &__heading {
+        display: flex;
+    }
+
+    &__heading {
+        padding-left: 4rem;
+        padding-right: 6rem;
+        display: flex;
+
+        &-strip {
+            height: 5.75rem;
+            width: 0.75rem;
+            background-color: $mainColor;
+            margin-right: 1rem;
+        }
+
+        &-text {
+            flex-direction: column;
+        }
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 3.6rem;
+        color: #222222;
+    }
+
+    &__subtitle {
+        font-weight: 600;
+        font-size: 2rem;
+        line-height: 2.4rem;
+        color: #222222;
+    }
+}

@@ -1,0 +1,79 @@
+$basket-colors: (
+    basket-total__sub-price: #4A4A4A,
+    basket-total__grand-title: #222222,
+    basket-total__btn: #ffffff,
+);
+
+@each $name,
+$color in $basket-colors {
+    .#{$name} {
+        color: $color;
+    }
+}
+
+
+
+.basket-total {
+    padding: 2.75rem;
+    background: #F5F3F3;
+
+
+    &__sub {
+        display: flex;
+        justify-content: end;
+
+
+        &-subtitle,
+        &-price {
+            font: {
+                weight: 400;
+                size: 0.7rem;
+            }
+
+            line-height: 13px;
+            padding-bottom: 0.9rem;
+            text-align: right;
+        }
+
+        &-price {
+            padding-left: 1rem;
+        }
+    }
+
+    &__grand {
+        display: flex;
+        justify-content: end;
+
+
+        &-title {
+            font: {
+                weight: 300;
+                size: 1rem;
+            }
+
+            line-height: 1.2rem;
+            padding-bottom: 1.6rem;
+        }
+
+        &-price {
+            font: {
+                weight: 700;
+                size: 1rem;
+            }
+
+            line-height: 1.2rem;
+            color: $mainColor;
+            padding-left: 1rem;
+        }
+    }
+
+    &__line {
+        border: 1px solid #E2E2E2;
+        margin-bottom: 1rem;
+    }
+
+    &__btn {
+        background-color: $mainColor;
+        font-weight: 300;
+    }
+}
