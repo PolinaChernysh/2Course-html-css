@@ -1,4 +1,4 @@
-.search-section {
+.categories-section {
     margin-top: 4.0625rem;
     margin-bottom: 6rem;
     display: flex;
@@ -9,20 +9,20 @@
     margin-right: 1.875rem;
 }
 
-.card-offer-long {
+.card-offer:nth-child(4) {
     margin-top: 1.875rem;
+}
+
+.card-offer:nth-child(4)>.card-offer__heading {
+    position: absolute;
+    padding-top: 4.0625rem;
+    padding-left: 30.625rem;
 }
 
 .card-offer__heading {
     position: absolute;
     padding-top: 6.5625rem;
     padding-left: 6.4375rem;
-}
-
-.card-offer-long__heading {
-    position: absolute;
-    padding-top: 4.0625rem;
-    padding-left: 30.625rem;
 }
 
 .card-offer__title {
