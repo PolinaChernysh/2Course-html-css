@@ -19,8 +19,15 @@
     align-items: center;
     justify-content: center;
 
-
     &:hover {
         fill: $mainColor;
     }
+
+    &:hover .control__forward-svg {
+        transform: scale(1.2);
+    }
+}
+
+.control__forward-svg {
+    transition: 0.3s;
 }

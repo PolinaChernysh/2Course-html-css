@@ -22,10 +22,17 @@
             size: 0.9rem;
         }
 
-        color: #000000;
-        border: 1px solid #000000;
+        color: #5e5e5e;
+        border: 1px solid #a2a2a2;
         min-width: 10rem;
         max-width: 10rem;
+
+        transition: 0.4s;
+
+        &:hover {
+            color: #000000;
+            border: 1px solid #000000;
+        }
     }
 
     &__ordering {

@@ -16,14 +16,31 @@ $size in $font-sizes {
     background-color: #F8F8F8;
     max-width: 32%;
     margin-bottom: 2rem;
+    position: relative;
 
+    transition: 0.7s;
+
+    &:hover {
+        box-shadow: 10px 10px 25px rgb(0 0 0 / 20%);
+        transform: scale(1.02);
+    }
+
+
+    &__link {
+        text-decoration: none;
+    }
 
     &__img {
-        padding-bottom: 1.6rem;
         width: 100%;
+        height: 26.2rem;
+
+        &:hover .card-product__overlay {
+            opacity: 1;
+        }
     }
 
     &__title {
+        padding-top: 1.6rem;
         font-weight: 400;
         line-height: 1rem;
         color: #000000;
@@ -46,4 +63,50 @@ $size in $font-sizes {
         padding-left: 1.2rem;
         padding-bottom: 1.25rem;
     }
+
+    &__overlay {
+        background-color: rgb(54, 54, 54, 0.8);
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 26.2rem;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        opacity: 0;
+        transition: 0.6s;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+.btn__product {
+    max-width: 8.6rem;
+    padding: 0.8rem 1.5rem;
+    color: #ffff;
+    border: 1px solid #ffff;
+
+    transition: 0.3s;
+
+    &:hover {
+        color: #ffff;
+        background-color: $mainColor;
+        border: 1px solid $mainColor;
+    }
+
+    &:hover .basket__product {
+        fill: #ffff;
+    }
+}
+
+.basket__product {
+    fill: #ffff;
+    padding-right: 1rem;
+
+    transition: 0.3s;
 }

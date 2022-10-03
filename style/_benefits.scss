@@ -25,11 +25,27 @@
     padding-bottom: 3rem;
 }
 
+.benefits__info-btn {
+    margin-bottom: 4rem;
+}
+
 .button-basket {
-    padding-bottom: 4rem;
+    transition: 0.3s;
+
+    &:hover {
+        color: #ffff;
+        background-color: $mainColor;
+        border: 1px solid $mainColor;
+    }
+
+    &:hover .basket {
+        fill: #ffff;
+    }
 }
 
 .basket {
     fill: $mainColor;
     padding-right: 1.4rem;
+
+    transition: 0.3s;
 }

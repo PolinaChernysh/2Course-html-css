@@ -1,24 +1,110 @@
 .sort-dropdown {
+    position: relative;
     display: flex;
     justify-content: space-between;
     padding-top: 3.2rem;
     list-style-type: none;
 }
 
-.sort-item {
+.catalog-dropdown {
+    margin-left: 24rem;
+    margin-bottom: 4rem;
+}
+
+.product-dropdown {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.dropdown-item {
     color: #000000;
-    padding-right: 1.75rem;
 
 
-    &__title {
-        text-decoration: none;
-        font-weight: 400;
-        font-size: 1rem;
-        line-height: 1rem;
-        color: #6F6E6E;
+    &:nth-child(1) {
+        margin-right: 11rem;
     }
 
-    &__img {
-        padding-left: 0.5rem;
+    &:nth-child(2) {
+        margin-right: 5rem;
     }
+
+    &:last-of-type {
+        min-width: 9rem;
+    }
+
+
+    &__details {
+        position: absolute;
+        z-index: 1;
+
+        transition: 0.6s;
+
+
+        &-title {
+            display: block;
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1rem;
+            color: #6F6E6E;
+            margin-bottom: 1rem;
+            cursor: pointer;
+
+            transition: 0.4s;
+
+            &:hover {
+                color: #000000;
+            }
+
+            &:hover .dropdown-item__details-img {
+                fill: #000000;
+            }
+        }
+
+        &-img {
+            padding-left: 0.5rem;
+            fill: #6F6E6E;
+            height: 0.6rem;
+            width: 0.9rem;
+
+            transition: 0.4s;
+        }
+    }
+}
+
+.product-dropdown-item-3 {
+    min-width: 5rem !important;
+}
+
+.product-dropdown-item-2 {
+    margin-right: 10rem !important;
+}
+
+.dropdown-form {
+    transition: 0.6s;
+}
+
+
+.dropdown-label {
+    padding-left: 0.5rem;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6F6E6E;
+
+    transition: 0.3s;
+}
+
+
+details.dropdown-item__details[open] .dropdown-form {
+    background-color: #fff;
+    box-shadow: 10px 10px 25px rgb(0 0 0 / 20%);
+    padding: 0.8rem;
+}
+
+
+::-webkit-details-marker {
+    display: none;
 }

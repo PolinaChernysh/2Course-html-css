@@ -15,6 +15,7 @@ body {
 
 $mainColor: #F16D7F;
 
+@import '_btn.scss';
 @import '_navbar.scss';
 @import '_top.scss';
 @import '_breadcrumb.scss';
@@ -23,8 +24,7 @@ $mainColor: #F16D7F;
 @import '_categories-section.scss';
 @import '_products-section.scss';
 @import '_card-product.scss';
-@import '_sort.scss';
-@import '_btn.scss';
+@import '_sort-filter.scss';
 @import '_feature-section.scss';
 @import '_footer.scss';
 @import '_basket-section.scss';
@@ -35,3 +35,6 @@ $mainColor: #F16D7F;
 @import '_card-feature.scss';
 @import '_product-info.scss';
 @import '_sort-dropdown.scss';
+@import '_registration-section.scss';
+@import '_perks-list.scss';
+@import '_pagination.scss';
