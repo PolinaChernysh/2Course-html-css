@@ -41,3 +41,17 @@
 .registration-fields {
     padding-bottom: 2rem;
 }
+
+
+
+@media (max-width: 568px) {
+    .registration-section {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .registration-section__btn {
+        margin-bottom: 0;
+    }
+}

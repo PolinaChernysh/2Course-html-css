@@ -60,3 +60,17 @@
     }
 
 }
+
+
+
+@media (max-width: 700px) {
+    .fill-form {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 568px) {
+    .fill-form__fields {
+        padding-bottom: 0;
+    }
+}

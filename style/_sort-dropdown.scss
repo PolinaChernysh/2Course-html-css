@@ -108,3 +108,54 @@ details.dropdown-item__details[open] .dropdown-form {
 ::-webkit-details-marker {
     display: none;
 }
+
+
+
+@media (max-width: 1024px) {
+    .catalog-dropdown {
+        margin-left: 0;
+    }
+
+    .dropdown-item:last-of-type {
+        min-width: 6rem;
+    }
+
+    .sort-dropdown,
+    .sort__filter {
+        position: relative;
+    }
+
+    .sort {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 475px) {
+    .catalog-dropdown {
+        margin-bottom: 0;
+    }
+
+    .sort-dropdown {
+        padding-top: 1.5rem;
+    }
+
+    .dropdown-item__details-title {
+        font-size: 0.7rem;
+    }
+
+    .dropdown-item:nth-child(1) {
+        margin-right: 8rem;
+    }
+
+    .dropdown-item:nth-child(2) {
+        margin-right: 4em;
+    }
+
+    .dropdown-item:last-of-type {
+        min-width: 4rem;
+    }
+
+    .product-dropdown-item-2 {
+        margin-right: 7rem !important;
+    }
+}

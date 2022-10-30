@@ -95,7 +95,6 @@
 
 .card__form {
 
-
     &-quantity {
         font-size: 1.1rem;
         line-height: 1.4rem;
@@ -104,5 +103,45 @@
         width: 2.1rem;
         padding: 0.25rem 0.4rem 0.1rem 0.9rem;
         margin-left: 1.2rem;
+    }
+}
+
+
+
+@media (max-width: 700px) {
+    .card-cart {
+        height: 11.7rem;
+        min-width: 22.3rem;
+    }
+
+    .card-cart__info {
+        padding: {
+            top: 0.8rem;
+            left: 1.1rem;
+        }
+    }
+
+    .card__title {
+        font-size: 1rem;
+        padding-bottom: 1.5rem;
+        max-width: 8rem;
+        line-height: 19px;
+    }
+
+    .card__h-3 {
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+
+    .card-cart__close {
+        margin-top: 1rem;
+        margin-left: 20.3rem;
+    }
+
+    .card__form-quantity {
+        font-size: 0.7rem;
+        line-height: 0.8rem;
+        margin-left: 0.7rem;
+        padding: 0.1rem 0rem 0.1rem 0.6rem;
     }
 }

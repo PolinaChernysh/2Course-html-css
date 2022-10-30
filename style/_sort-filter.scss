@@ -26,14 +26,18 @@
 
         &-title {
             display: block;
-            font-weight: 600;
-            font-size: 14px;
-            line-height: 17px;
-            color: #000000;
             cursor: pointer;
             margin-bottom: 1rem;
+            display: flex;
 
             transition: 0.3s;
+
+            &-h2 {
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 17px;
+                color: #000000;
+            }
         }
     }
 }
@@ -103,5 +107,23 @@ details.sort__filter[open] {
 
     .sort__filter-img {
         fill: $mainColor;
+    }
+}
+
+
+
+@media (max-width: 475px) {
+    .sort__filter-title-h2 {
+        display: none;
+    }
+
+    .sort__filter-img {
+        width: 2.3rem;
+        height: 1.5rem;
+    }
+
+    .sort__filter {
+        margin-bottom: 1rem;
+        margin-top: 1.5rem;
     }
 }
