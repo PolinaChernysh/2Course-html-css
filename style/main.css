@@ -434,8 +434,7 @@ body {
 }
 .sort__filter {
   position: absolute;
-  z-index: 1;
-  width: 21.2rem;
+  z-index: 2;
   margin-top: 3.2rem;
   margin-bottom: 4rem;
   font-weight: 600;
@@ -466,6 +465,7 @@ body {
 }
 
 .filter-category {
+  width: 21.2rem;
   transition: 0.6s;
 }
 .filter-category__title {
@@ -521,7 +521,7 @@ details.sort__filter[open] .sort__filter-img {
   fill: #F16D7F;
 }
 
-@media (max-width: 475px) {
+@media (max-width: 520px) {
   .sort__filter-title-h2 {
     display: none;
   }
@@ -1230,7 +1230,7 @@ details.sort__filter[open] .sort__filter-img {
 }
 
 .dropdown-label {
-  padding-left: 0.5rem;
+  padding-left: 0.2rem;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
@@ -1248,24 +1248,34 @@ details.dropdown-item__details[open] .dropdown-form {
   display: none;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1112px) {
   .catalog-dropdown {
-    margin-left: 0;
+    margin-left: 16rem;
   }
+}
+@media (max-width: 1024px) {
   .dropdown-item:last-of-type {
-    min-width: 6rem;
-  }
-  .sort-dropdown,
-.sort__filter {
-    position: relative;
+    min-width: 8rem;
   }
   .sort {
     justify-content: space-between;
   }
 }
-@media (max-width: 475px) {
+@media (max-width: 640px) {
   .catalog-dropdown {
-    margin-bottom: 0;
+    margin-left: 8rem;
+  }
+}
+@media (max-width: 520px) {
+  .catalog-dropdown {
+    margin-left: 9rem;
+  }
+  .dropdown-label {
+    font-size: 0.7rem;
+    line-height: 0.5rem;
+  }
+  .sort__filter {
+    margin-top: 1.5rem;
   }
   .sort-dropdown {
     padding-top: 1.5rem;
@@ -1280,10 +1290,32 @@ details.dropdown-item__details[open] .dropdown-form {
     margin-right: 4em;
   }
   .dropdown-item:last-of-type {
-    min-width: 4rem;
+    min-width: 6.3rem;
   }
   .product-dropdown-item-2 {
     margin-right: 7rem !important;
+  }
+}
+@media (max-width: 445px) {
+  .catalog-dropdown {
+    margin-left: 6rem;
+  }
+  .dropdown-item__details-img {
+    padding-left: 0.2rem;
+  }
+  .dropdown-item:nth-child(1) {
+    margin-right: 7.5rem;
+  }
+  .dropdown-item:nth-child(2) {
+    margin-right: 3.5em;
+  }
+}
+@media (max-width: 380px) {
+  .filter-category {
+    width: 20rem;
+  }
+  .catalog-dropdown {
+    margin-left: 4.5rem;
   }
 }
 .registration-section {

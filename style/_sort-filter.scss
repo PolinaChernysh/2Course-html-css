@@ -4,8 +4,7 @@
 
     &__filter {
         position: absolute;
-        z-index: 1;
-        width: 21.2rem;
+        z-index: 2;
         margin-top: 3.2rem;
         margin-bottom: 4rem;
         font-weight: 600;
@@ -44,6 +43,8 @@
 
 
 .filter-category {
+    width: 21.2rem;
+
     transition: 0.6s;
 
 
@@ -112,7 +113,7 @@ details.sort__filter[open] {
 
 
 
-@media (max-width: 475px) {
+@media (max-width: 520px) {
     .sort__filter-title-h2 {
         display: none;
     }
