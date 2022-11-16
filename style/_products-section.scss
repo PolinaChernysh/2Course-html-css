@@ -7,6 +7,10 @@
         justify-content: space-between;
         flex-wrap: wrap;
         margin-bottom: 3rem;
+
+        @media (max-width: media(level_1)) {
+            justify-content: center;
+        }
     }
 
     &__header {
@@ -40,20 +44,5 @@
             color: #FFFFFF;
             background-color: $mainColor;
         }
-    }
-}
-
-
-
-
-@media (max-width: 1112px) and (min-width: 800px) {
-    .products-section__cards {
-        justify-content: center;
-    }
-}
-
-@media (max-width: 755px) {
-    .products-section__cards {
-        justify-content: center;
     }
 }

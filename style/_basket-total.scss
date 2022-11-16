@@ -17,6 +17,10 @@ $color in $basket-colors {
     padding: 2.75rem;
     background: #F5F3F3;
 
+    @media (max-width: media(level_6)) {
+        margin-bottom: 6rem;
+    }
+
 
     &__sub {
         display: flex;
@@ -81,13 +85,5 @@ $color in $basket-colors {
         &:hover {
             transform: scale(1.05);
         }
-    }
-}
-
-
-
-@media (max-width: 700px) {
-    .basket-total {
-        margin-bottom: 6rem;
     }
 }

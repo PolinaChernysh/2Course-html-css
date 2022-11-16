@@ -2,9 +2,19 @@
     display: flex;
     justify-content: space-between;
 
+    @media (max-width: media(level_8)) {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
 
     &__form {
         width: 22.5rem;
+
+        @media (max-width: media(level_11)) {
+            width: auto;
+        }
     }
 
     &__btn {
@@ -23,6 +33,11 @@
             transform: scale(1.05);
         }
 
+        @media (max-width: media(level_8)) {
+            margin-bottom: 0;
+        }
+
+
         &-img {
             fill: #FFFFFF;
             width: 17px;
@@ -32,26 +47,10 @@
     }
 }
 
-
-
 .registration-form {
     margin-top: 4rem;
 }
 
 .registration-fields {
     padding-bottom: 2rem;
-}
-
-
-
-@media (max-width: 568px) {
-    .registration-section {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .registration-section__btn {
-        margin-bottom: 0;
-    }
 }

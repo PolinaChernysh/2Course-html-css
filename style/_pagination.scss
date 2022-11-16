@@ -8,6 +8,10 @@
     margin: 0 auto;
     padding: 0 0.6rem;
 
+    @media (max-width: media(level_11)) {
+        width: auto;
+    }
+
 
     &__arrow-img {
         width: 1rem;
@@ -37,6 +41,10 @@
 
     &:hover {
         color: #000;
+    }
+
+    @media (max-width: media(level_11)) {
+        margin-right: 0.3rem;
     }
 }
 

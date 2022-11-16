@@ -13,7 +13,37 @@ body {
     padding: 0 calc(50% - 1140px / 2);
 }
 
+$media: (
+    level_1: 1112px,
+    level_2: 1070px,
+    level_3: 900px,
+    level_4: 800px,
+    level_5: 768px,
+    level_6: 700px,
+    level_7: 640px,
+    level_8: 568px,
+    level_9: 475px,
+    level_10: 400px,
+    level_11: 375px,
+);
+
+@function media($width) {
+    @return map-get($media, $width)
+}
+
 $mainColor: #F16D7F;
+
+@media (max-width: 1180px) {
+    .container {
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 0.5rem;
+    }
+}
 
 @import '_btn.scss';
 @import '_navbar.scss';
@@ -38,17 +68,3 @@ $mainColor: #F16D7F;
 @import '_registration-section.scss';
 @import '_perks-list.scss';
 @import '_pagination.scss';
-
-
-
-@media (max-width: 1180px) {
-    .container {
-        padding: 0 1rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .container {
-        padding: 0 0.5rem;
-    }
-}

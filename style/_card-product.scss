@@ -25,6 +25,16 @@ $size in $font-sizes {
         transform: scale(1.02);
     }
 
+    @media (max-width: media(level_1)) {
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+    }
+
+    @media (max-width: media(level_4)) {
+        margin-right: 0.25rem;
+        margin-left: 0.25rem;
+    }
+
 
     &__link {
         text-decoration: none;
@@ -32,7 +42,6 @@ $size in $font-sizes {
 
     &__img {
         width: 100%;
-        height: 26.2rem;
 
         &:hover .card-product__overlay {
             opacity: 1;
@@ -46,6 +55,7 @@ $size in $font-sizes {
         color: #000000;
         padding-bottom: 1rem;
         padding-left: 1.2rem;
+        padding-right: 1.2rem;
     }
 
     &__subtitle {
@@ -54,6 +64,7 @@ $size in $font-sizes {
         color: #5D5D5D;
         padding-bottom: 1.2rem;
         padding-left: 1.2rem;
+        padding-right: 1.2rem;
     }
 
     &__price {
@@ -85,6 +96,12 @@ $size in $font-sizes {
     }
 }
 
+.card-product_disappear {
+    @media (max-width: media(level_1)) {
+        display: none;
+    }
+}
+
 .btn__product {
     max-width: 8.6rem;
     padding: 0.8rem 1.5rem;
@@ -109,26 +126,4 @@ $size in $font-sizes {
     padding-right: 1rem;
 
     transition: 0.3s;
-}
-
-
-
-@media (max-width: 1114px) and (min-width: 800px) {
-    .card-product {
-        margin-right: 0.5rem;
-        margin-left: 0.5rem;
-    }
-}
-
-@media (max-width: 755px) {
-    .card-product {
-        margin-right: 0.25rem;
-        margin-left: 0.25rem;
-    }
-}
-
-@media (max-width: 1112px) {
-    .card-product_disappear {
-        display: none;
-    }
 }

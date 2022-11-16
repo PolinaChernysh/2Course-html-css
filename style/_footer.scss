@@ -4,16 +4,34 @@
     background-repeat: no-repeat;
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: media(level_5)) {
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .quote {
     width: 22.5rem;
     padding-top: 6rem;
 
+    @media (max-width: media(level_5)) {
+        padding-top: 4rem;
+    }
+
+    @media (max-width: media(level_10)) {
+        width: 70%;
+    }
+
 
     &__img {
         padding-left: 7.6rem;
         padding-bottom: 2rem;
+
+        @media (max-width: media(level_10)) {
+            padding-left: 30%;
+        }
     }
 
     &__heading {
@@ -28,6 +46,11 @@
 .subscribe {
     padding-top: 9.4rem;
     padding-bottom: 9.75rem;
+
+    @media (max-width: media(level_5)) {
+        padding-top: 3rem;
+        padding-bottom: 8.75rem;
+    }
 
 
     &__title {
@@ -45,6 +68,10 @@
         text-align: center;
         color: #222224;
         padding-bottom: 2rem;
+
+        @media (max-width: media(level_9)) {
+            font-size: 0.9rem;
+        }
     }
 
     &__form {
@@ -71,6 +98,14 @@
     align-items: center;
     color: #222224;
     opacity: 0.67;
+
+    @media (max-width: media(level_9)) {
+        padding: 1rem 1rem 1rem 1.4rem;
+    }
+
+    @media (max-width: media(level_10)) {
+        padding: 0.2rem 0.2rem 0.2rem 0.5rem;
+    }
 }
 
 .button-form {
@@ -87,16 +122,24 @@
     text-align: center;
     color: #FFFFFF;
     cursor: pointer;
+
+    @media (max-width: media(level_10)) {
+        padding: 0.9rem 0.7rem 0.9rem 0.7rem;
+    }
 }
-
-
-
 
 .copyright {
     background-color: #222224;
     display: flex;
     justify-content: space-between;
     padding-bottom: 1.5rem;
+
+    @media (max-width: media(level_9)) {
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: center;
+        height: 9rem;
+    }
 
 
     &__text {
@@ -105,6 +148,10 @@
         line-height: 1.2rem;
         color: #FBFBFB;
         padding-top: 2rem;
+
+        @media (max-width: media(level_9)) {
+            align-items: center;
+        }
     }
 
     &__network {
@@ -133,45 +180,5 @@
             background-color: $mainColor;
             fill: #FFFFFF;
         }
-    }
-}
-
-
-
-@media (max-width: 768px) {
-    .subscribe-section {
-        height: 100%;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .quote {
-        padding-top: 4rem;
-    }
-
-    .subscribe {
-        padding-top: 3rem;
-        padding-bottom: 8.75rem;
-    }
-}
-
-@media (max-width: 440px) {
-    .subscribe__subtitle {
-        font-size: 0.9rem;
-    }
-
-    .input-subscribe {
-        padding: 1rem 1rem 1rem 1.4rem;
-    }
-
-    .copyright {
-        align-items: center;
-        flex-direction: column-reverse;
-        justify-content: center;
-        height: 9rem;
-    }
-
-    .copyright__text {
-        align-items: center;
     }
 }

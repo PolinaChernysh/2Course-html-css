@@ -9,6 +9,13 @@
     background-size: cover;
     text-decoration: none;
 
+    @media (max-width: media(level_11)) {
+        flex-direction: column;
+        width: 100%;
+        height: 15rem;
+        margin-top: 2rem;
+    }
+
 
     &:hover .card-offer__title {
         transform: scale(1.2);
@@ -21,6 +28,10 @@
 
     &:nth-of-type(1) {
         background-image: url(../images/card1.png);
+
+        @media (max-width: media(level_11)) {
+            margin-top: 0;
+        }
     }
 
     &:nth-of-type(2) {
@@ -43,6 +54,16 @@
         background-image: url(../images/card4.jpg);
 
         transition: 0.6s;
+
+        @media (max-width: media(level_5)) {
+            max-height: 7.25rem;
+        }
+
+        @media (max-width: media(level_11)) {
+            margin-top: 2rem;
+
+        }
+
 
         &:hover .card-offer__title {
             transform: scale(1.2);
@@ -71,30 +92,5 @@
         color: $mainColor;
 
         transition: 0.6s;
-    }
-}
-
-
-
-@media (max-width: 768px) {
-    .card-offer_long {
-        max-height: 7.25rem;
-    }
-}
-
-@media (max-width: 375px) {
-    .card-offer {
-        flex-direction: column;
-        width: 100%;
-        height: 15rem;
-        margin-top: 2rem;
-
-        &:nth-child(1) {
-            margin-top: 0;
-        }
-
-        &_long {
-            margin-top: 2rem;
-        }
     }
 }
