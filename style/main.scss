@@ -16,16 +16,13 @@ body {
 $media: (
     level_1: 1112px,
     level_2: 1070px,
-    level_3: 900px,
-    level_4: 800px,
-    level_5: 768px,
-    level_6: 700px,
-    level_7: 640px,
-    level_8: 568px,
-    level_9: 475px,
-    level_10: 400px,
-    level_11: 375px,
+    level_3: 768px,
+    level_4: 700px,
+    level_5: 568px,
+    level_6: 475px,
+    level_7: 375px,
 );
+
 
 @function media($width) {
     @return map-get($media, $width)
