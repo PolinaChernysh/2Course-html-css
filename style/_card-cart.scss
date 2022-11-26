@@ -12,9 +12,14 @@
 
 .card__title {
     @include title(400, 1.5rem, 2.6rem, 12.5rem);
+
+    @media (max-width: media(level_6)) {
+        font-size: 1rem;
+        padding-bottom: 1.5rem;
+        max-width: 8rem;
+        line-height: 19px;
+    }
 }
-
-
 
 .basket-section__cards {
     .card-cart:nth-child(1) {
@@ -36,6 +41,12 @@
         transform: translateX(-0.5rem);
     }
 
+    @media (max-width: media(level_6)) {
+        height: 11.7rem;
+        min-width: 22.3rem;
+    }
+
+
     &__img {
         height: 100%;
 
@@ -48,6 +59,14 @@
             left: 2rem;
         }
 
+        @media (max-width: media(level_6)) {
+            padding: {
+                top: 0.8rem;
+                left: 1.1rem;
+            }
+        }
+
+
         &-item {
             display: flex;
         }
@@ -57,6 +76,11 @@
         position: absolute;
         fill: #6b6b6b;
 
+        margin: {
+            top: 1.75rem;
+            left: 38rem;
+        }
+
         transition: 0.5s;
 
         &:hover {
@@ -64,9 +88,9 @@
             fill: #000000;
         }
 
-        margin: {
-            top: 1.75rem;
-            left: 38rem;
+        @media (max-width: media(level_6)) {
+            margin-top: 1rem;
+            margin-left: 20.3rem;
         }
     }
 }
@@ -80,6 +104,11 @@
     line-height: 26px;
     padding-bottom: 0.4rem;
     color: #575757;
+
+    @media (max-width: media(level_6)) {
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
 
 
     &_grey {
@@ -103,45 +132,12 @@
         width: 2.1rem;
         padding: 0.25rem 0.4rem 0.1rem 0.9rem;
         margin-left: 1.2rem;
-    }
-}
 
-
-
-@media (max-width: 700px) {
-    .card-cart {
-        height: 11.7rem;
-        min-width: 22.3rem;
-    }
-
-    .card-cart__info {
-        padding: {
-            top: 0.8rem;
-            left: 1.1rem;
+        @media (max-width: media(level_6)) {
+            font-size: 0.7rem;
+            line-height: 0.8rem;
+            margin-left: 0.7rem;
+            padding: 0.1rem 0rem 0.1rem 0.6rem;
         }
-    }
-
-    .card__title {
-        font-size: 1rem;
-        padding-bottom: 1.5rem;
-        max-width: 8rem;
-        line-height: 19px;
-    }
-
-    .card__h-3 {
-        font-size: 0.8rem;
-        line-height: 1rem;
-    }
-
-    .card-cart__close {
-        margin-top: 1rem;
-        margin-left: 20.3rem;
-    }
-
-    .card__form-quantity {
-        font-size: 0.7rem;
-        line-height: 0.8rem;
-        margin-left: 0.7rem;
-        padding: 0.1rem 0rem 0.1rem 0.6rem;
     }
 }

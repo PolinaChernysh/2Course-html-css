@@ -22,8 +22,104 @@
     }
 }
 
-@media (max-width: 375px) {
-    .icon_phone {
+.icon:nth-child(1) {
+
+    &:hover {
+        animation: shake-2 0.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    }
+
+    @keyframes shake-2 {
+
+        0%,
+        100% {
+            transform: rotate(0deg);
+            transform-origin: 50% 50%;
+        }
+
+        10% {
+            transform: rotate(8deg);
+        }
+
+        20%,
+        40%,
+        60% {
+            transform: rotate(-10deg);
+        }
+
+        30%,
+        50%,
+        70% {
+            transform: rotate(10deg);
+        }
+
+        80% {
+            transform: rotate(-8deg);
+        }
+
+        90% {
+            transform: rotate(8deg);
+        }
+    }
+}
+
+.icon:nth-child(2) {
+
+    &:hover {
+        animation: rotate 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+
+    @keyframes rotate {
+        0% {
+            transform: rotate(-360deg);
+            opacity: 0;
+        }
+
+        100% {
+            transform: rotate(0);
+            opacity: 1;
+        }
+    }
+}
+
+.icon:nth-child(3) {
+
+    &:hover {
+        animation: wobble 0.7s both;
+    }
+
+    @keyframes wobble {
+
+        0%,
+        100% {
+            transform: translateX(0%);
+            transform-origin: 50% 50%;
+        }
+
+        15% {
+            transform: translateX(-6px) rotate(6deg);
+        }
+
+        30% {
+            transform: translateX(4px) rotate(-6deg);
+        }
+
+        45% {
+            transform: translateX(-4px) rotate(3.6deg);
+        }
+
+        60% {
+            transform: translateX(3px) rotate(-2.4deg);
+        }
+
+        75% {
+            transform: translateX(-3px) rotate(1.2deg);
+        }
+    }
+}
+
+.icon_phone {
+
+    @media (max-width: media(level_11)) {
         display: none;
     }
 }

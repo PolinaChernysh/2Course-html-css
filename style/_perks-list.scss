@@ -4,6 +4,18 @@
     max-width: 40.7rem;
     margin-top: 4rem;
 
+    @media (max-width: media(level_2)) {
+        max-width: 34rem;
+        padding-left: 2rem;
+    }
+
+    @media (max-width: media(level_8)) {
+        margin-top: 2.5rem;
+        padding-left: 0;
+        max-width: 23rem;
+        margin-bottom: 6rem;
+    }
+
 
     &__title,
     &__text {
@@ -12,6 +24,11 @@
         line-height: 29px;
         color: #000000;
         padding-bottom: 1.4rem;
+
+        @media (max-width: media(level_2)) {
+            font-size: 1rem;
+            line-height: 1.1rem;
+        }
     }
 
     &__items {
@@ -25,36 +42,16 @@
         color: #000000;
         padding-bottom: 1rem;
 
+        @media (max-width: media(level_2)) {
+            font-size: 1rem;
+            line-height: 1.1rem;
+        }
+
+
         &-check {
             width: 1.1rem;
             height: 1rem;
             padding-right: 1.4rem;
         }
-    }
-}
-
-
-
-@media (max-width: 1080px) {
-
-    .perks-list {
-        max-width: 34rem;
-        padding-left: 2rem;
-    }
-
-    .perks-list__title,
-    .perks-list__text,
-    .perks-list__item {
-        font-size: 1rem;
-        line-height: 1.1rem;
-    }
-}
-
-@media (max-width: 568px) {
-    .perks-list {
-        margin-top: 2.5rem;
-        padding-left: 0;
-        max-width: 23rem;
-        margin-bottom: 6rem;
     }
 }
