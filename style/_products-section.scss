@@ -42,3 +42,18 @@
         }
     }
 }
+
+
+
+
+@media (max-width: 1112px) and (min-width: 800px) {
+    .products-section__cards {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 755px) {
+    .products-section__cards {
+        justify-content: center;
+    }
+}

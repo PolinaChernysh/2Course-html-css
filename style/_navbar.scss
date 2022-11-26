@@ -21,3 +21,9 @@
         }
     }
 }
+
+@media (max-width: 375px) {
+    .icon_phone {
+        display: none;
+    }
+}

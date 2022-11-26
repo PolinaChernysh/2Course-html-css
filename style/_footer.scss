@@ -1,5 +1,4 @@
 .subscribe-section {
-    height: 28rem;
     background-image: url(../images/subscribe.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -9,7 +8,7 @@
 
 .quote {
     width: 22.5rem;
-    margin-top: 6rem;
+    padding-top: 6rem;
 
 
     &__img {
@@ -28,6 +27,7 @@
 
 .subscribe {
     padding-top: 9.4rem;
+    padding-bottom: 9.75rem;
 
 
     &__title {
@@ -94,9 +94,9 @@
 
 .copyright {
     background-color: #222224;
-    height: 5rem;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 1.5rem;
 
 
     &__text {
@@ -133,5 +133,45 @@
             background-color: $mainColor;
             fill: #FFFFFF;
         }
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .subscribe-section {
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .quote {
+        padding-top: 4rem;
+    }
+
+    .subscribe {
+        padding-top: 3rem;
+        padding-bottom: 8.75rem;
+    }
+}
+
+@media (max-width: 440px) {
+    .subscribe__subtitle {
+        font-size: 0.9rem;
+    }
+
+    .input-subscribe {
+        padding: 1rem 1rem 1rem 1.4rem;
+    }
+
+    .copyright {
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: center;
+        height: 9rem;
+    }
+
+    .copyright__text {
+        align-items: center;
     }
 }

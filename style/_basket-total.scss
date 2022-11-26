@@ -83,3 +83,11 @@ $color in $basket-colors {
         }
     }
 }
+
+
+
+@media (max-width: 700px) {
+    .basket-total {
+        margin-bottom: 6rem;
+    }
+}
