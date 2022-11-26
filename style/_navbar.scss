@@ -22,7 +22,106 @@
     }
 }
 
-.icon:nth-child(1) {
+#menu {
+    display: none;
+}
+
+#menu:checked~.menu-overlay {
+    display: flex;
+}
+
+#menu:not(:checked)~.menu-overlay {
+    display: none;
+}
+
+.menu-overlay {
+    position: absolute;
+    min-height: 764px;
+    width: 100%;
+    background-color: #0006;
+    left: 0;
+    right: 0;
+    top: 4.7rem;
+    z-index: 2;
+    display: none;
+    justify-content: flex-end;
+}
+
+.overlay-backgroundnone {
+    background: none;
+}
+
+.menu-nav {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 10.6rem;
+    box-shadow: 10px 10px 25px rgb(0 0 0 / 20%);
+}
+
+.menu_close {
+    width: 0.8rem;
+    height: 0.8rem;
+    position: absolute;
+    fill: #6b6b6b;
+    top: 1rem;
+    right: 1rem;
+
+    transition: 0.5s;
+
+    &:hover {
+        transform: scale(1.15);
+        fill: #000000;
+    }
+}
+
+.menu-nav__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    padding-top: 2.1rem;
+    padding-bottom: 0.3rem;
+    text-transform: uppercase;
+}
+
+.menu-nav__subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: $mainColor;
+    padding-top: 1.2rem;
+    text-transform: uppercase;
+}
+
+.menu-nav__subtitle-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    list-style-type: none;
+    padding-top: 0.8rem;
+    padding-left: 1.2rem;
+}
+
+.menu-nav__subtitle-link {
+    text-decoration: none;
+    color: #6F6E6E;
+
+    transition: 0.3s;
+
+    &:hover {
+        color: $mainColor;
+    }
+}
+
+.icon-menu {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
 
     &:hover {
         animation: shake-2 0.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
@@ -62,7 +161,7 @@
     }
 }
 
-.icon:nth-child(2) {
+.icon_profile {
 
     &:hover {
         animation: rotate 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -81,7 +180,7 @@
     }
 }
 
-.icon:nth-child(3) {
+.icon_basket {
 
     &:hover {
         animation: wobble 0.7s both;
@@ -117,9 +216,36 @@
     }
 }
 
-.icon_phone {
+.icon_profile,
+.icon_basket {
 
-    @media (max-width: media(level_11)) {
+    @media (max-width: media(level_7)) {
         display: none;
     }
+}
+
+.icon__svg {
+    fill: #E8E8E8;
+}
+
+.svg-search {
+    height: 1.75rem;
+
+    transition: 0.3s;
+
+    &:hover {
+        transform: scale(1.15);
+    }
+}
+
+.svg-profile {
+    height: 1.75rem;
+}
+
+.svg-menu {
+    height: 1.4rem;
+}
+
+.svg-basket {
+    height: 2.3rem;
 }

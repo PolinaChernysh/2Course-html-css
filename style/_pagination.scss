@@ -8,7 +8,7 @@
     margin: 0 auto;
     padding: 0 0.6rem;
 
-    @media (max-width: media(level_11)) {
+    @media (max-width: media(level_7)) {
         width: auto;
     }
 
@@ -31,6 +31,11 @@
     transform: rotate(-90deg);
 }
 
+.pagination__link-points {
+    color: #C4C4C4;
+    margin-right: 0.6rem;
+}
+
 .pagination__link {
     list-style-type: none;
     text-decoration: none;
@@ -43,7 +48,7 @@
         color: #000;
     }
 
-    @media (max-width: media(level_11)) {
+    @media (max-width: media(level_7)) {
         margin-right: 0.3rem;
     }
 }

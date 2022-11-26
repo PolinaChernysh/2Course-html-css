@@ -5,8 +5,12 @@
         min-width: 17rem;
     }
 
-    @media (max-width: media(level_6)) {
+    @media (max-width: media(level_4)) {
         margin-top: 0;
+    }
+
+    @media (max-width: media(level_7)) {
+        padding: 2.5rem;
     }
 
 
@@ -17,6 +21,7 @@
         line-height: 19px;
         color: #222222;
         padding-bottom: 1.25rem;
+        text-transform: uppercase;
     }
 
     &__fields {
@@ -24,7 +29,7 @@
         flex-direction: column;
         padding-bottom: 3.6rem;
 
-        @media (max-width: media(level_8)) {
+        @media (max-width: media(level_5)) {
             padding-bottom: 2rem;
         }
     }

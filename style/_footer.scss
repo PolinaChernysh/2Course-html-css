@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
 
-    @media (max-width: media(level_5)) {
+    @media (max-width: media(level_3)) {
         height: 100%;
         flex-direction: column;
         align-items: center;
@@ -16,21 +16,21 @@
     width: 22.5rem;
     padding-top: 6rem;
 
-    @media (max-width: media(level_5)) {
+    @media (max-width: media(level_3)) {
         padding-top: 4rem;
     }
 
-    @media (max-width: media(level_10)) {
+    @media (max-width: media(level_7)) {
         width: 70%;
     }
 
 
     &__img {
-        padding-left: 7.6rem;
+        padding-left: 7.9rem;
         padding-bottom: 2rem;
 
-        @media (max-width: media(level_10)) {
-            padding-left: 30%;
+        @media (max-width: media(level_7)) {
+            padding-left: 28%;
         }
     }
 
@@ -40,14 +40,23 @@
         line-height: 1.5rem;
         text-align: center;
         color: #222224;
+
+        &-italic {
+            font-style: italic;
+        }
     }
 }
 
 .subscribe {
     padding-top: 9.4rem;
     padding-bottom: 9.75rem;
+    max-width: 40%;
 
-    @media (max-width: media(level_5)) {
+    @media (max-width: media(level_2)) {
+        max-width: 90%;
+    }
+
+    @media (max-width: media(level_3)) {
         padding-top: 3rem;
         padding-bottom: 8.75rem;
     }
@@ -56,20 +65,21 @@
     &__title {
         font-weight: 600;
         font-size: 1.5rem;
-        line-height: 167.2%;
+        line-height: 1.8rem;
         text-align: center;
         color: #222224;
+        padding-bottom: 1rem;
     }
 
     &__subtitle {
         font-weight: 400;
         font-size: 1.2rem;
-        line-height: 167.2%;
+        line-height: 1.6rem;
         text-align: center;
         color: #222224;
         padding-bottom: 2rem;
 
-        @media (max-width: media(level_9)) {
+        @media (max-width: media(level_6)) {
             font-size: 0.9rem;
         }
     }
@@ -99,11 +109,11 @@
     color: #222224;
     opacity: 0.67;
 
-    @media (max-width: media(level_9)) {
+    @media (max-width: media(level_6)) {
         padding: 1rem 1rem 1rem 1.4rem;
     }
 
-    @media (max-width: media(level_10)) {
+    @media (max-width: media(level_7)) {
         padding: 0.2rem 0.2rem 0.2rem 0.5rem;
     }
 }
@@ -123,7 +133,7 @@
     color: #FFFFFF;
     cursor: pointer;
 
-    @media (max-width: media(level_10)) {
+    @media (max-width: media(level_7)) {
         padding: 0.9rem 0.7rem 0.9rem 0.7rem;
     }
 }
@@ -134,7 +144,7 @@
     justify-content: space-between;
     padding-bottom: 1.5rem;
 
-    @media (max-width: media(level_9)) {
+    @media (max-width: media(level_6)) {
         align-items: center;
         flex-direction: column-reverse;
         justify-content: center;
@@ -149,7 +159,7 @@
         color: #FBFBFB;
         padding-top: 2rem;
 
-        @media (max-width: media(level_9)) {
+        @media (max-width: media(level_6)) {
             align-items: center;
         }
     }

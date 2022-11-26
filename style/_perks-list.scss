@@ -9,13 +9,17 @@
         padding-left: 2rem;
     }
 
-    @media (max-width: media(level_8)) {
+    @media (max-width: media(level_5)) {
         margin-top: 2.5rem;
         padding-left: 0;
         max-width: 23rem;
         margin-bottom: 6rem;
     }
 
+
+    &__title {
+        text-transform: uppercase;
+    }
 
     &__title,
     &__text {

@@ -18,7 +18,7 @@
 
         transition: 0.6s;
 
-        @media (max-width: media(level_8)) {
+        @media (max-width: media(level_5)) {
             margin-bottom: 1rem;
             margin-top: 1.5rem;
         }
@@ -32,7 +32,7 @@
 
             transition: 0.3s;
 
-            @media (max-width: media(level_8)) {
+            @media (max-width: media(level_5)) {
                 width: 2.3rem;
                 height: 1.5rem;
             }
@@ -52,7 +52,7 @@
                 line-height: 17px;
                 color: #000000;
 
-                @media (max-width: media(level_8)) {
+                @media (max-width: media(level_5)) {
                     display: none;
                 }
             }
@@ -80,22 +80,25 @@
         transition: 0.3s;
     }
 
-    &__links {
+    &__items {
         display: flex;
         flex-direction: column;
         margin-top: 1.5rem;
         margin-bottom: 1.5rem;
     }
 
-    &__link {
+    &__item {
         list-style-type: none;
+        margin-bottom: 0.7rem;
+    }
+
+    &__link {
         text-decoration: none;
         font-weight: 400;
         font-size: 14px;
         line-height: 17px;
         color: #6F6E6E;
         margin-left: 1rem;
-        margin-bottom: 0.7rem;
 
         transition: 0.3s;
 
