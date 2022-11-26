@@ -75,5 +75,11 @@ $color in $basket-colors {
     &__btn {
         background-color: $mainColor;
         font-weight: 300;
+
+        transition: 0.5s;
+
+        &:hover {
+            transform: scale(1.05);
+        }
     }
 }

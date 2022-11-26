@@ -1,0 +1,43 @@
+.registration-section {
+    display: flex;
+    justify-content: space-between;
+
+
+    &__form {
+        width: 22.5rem;
+    }
+
+    &__btn {
+        background-color: $mainColor;
+        color: #FFFFFF;
+        font-weight: 300;
+        align-items: center;
+        padding: 1rem 1.8rem 1rem 1.8rem;
+        max-width: 11rem;
+        margin-bottom: 6rem;
+        cursor: pointer;
+
+        transition: 0.5s;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+
+        &-img {
+            fill: #FFFFFF;
+            width: 17px;
+            height: 10px;
+            padding-left: 1.2rem;
+        }
+    }
+}
+
+
+
+.registration-form {
+    margin-top: 4rem;
+}
+
+.registration-fields {
+    padding-bottom: 2rem;
+}
